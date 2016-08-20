@@ -1,0 +1,21 @@
+<div class="m-index">
+    <div id="m-container">
+
+    </div>
+    <footer>
+        <ul id="index-nav">
+            <li class="active" action-type='switch' data-name="home">
+                <i class="yo-ico">&#xe608;</i>
+                <b>首页</b>
+            </li>
+            <li action-type='switch' data-name="age">
+                <i class="yo-ico">&#xe687;</i>
+                <b>年龄</b>
+            </li>
+            <li action-type='switch' data-name="my">
+                <i class="yo-ico">&#xe609;</i>
+                <b>我的</b>
+            </li>
+        </ul>
+    </footer>
+</div>
