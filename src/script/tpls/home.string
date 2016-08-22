@@ -1,1 +1,57 @@
-<div>首页</div>
+<header class="he">
+    <div class="zixun">
+        <i class="yo-ico">&#xe638;</i>
+        <b>咨询</b>
+    </div>
+    <form class="yo-search">
+        <label class="operation">
+            <span class="yo-ico">&#xf067;</span>
+            <input type="text" class="input" placeholder="搜索目的地、关键词、年龄等" />
+        </label>
+    </form>
+</header>
+<section spa-widget="scroll" data-scroll-id="myScroll">
+    <div>
+        <div class="swiper-container" id="home-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/oumen/img/banner.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="/oumen/img/banner.jpg" alt=""/></div>
+                <div class="swiper-slide"><img src="/oumen/img/banner.jpg" alt=""/></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination "></div>
+        </div>
+        <div class="list">
+            <ul class="top">
+                <li><img src="/oumen/img/one.png" alt=""/><b>境外亲子游</b></li>
+                <li><img src="/oumen/img/two.png" alt=""/><b>国内亲子游</b></li>
+                <li><img src="/oumen/img/three.png" alt=""/><b>周边亲子活动</b></li>
+            </ul>
+            <ul class="bot">
+                <li><img src="/oumen/img/four.png" alt=""/><b>冬夏令营</b></li>
+                <li><img src="/oumen/img/five.png" alt=""/><b>游学</b></li>
+                <li><img src="/oumen/img/six.png" alt=""/><b>会员注册</b></li>
+            </ul>
+        </div>
+        <section class="hotList">
+            <header><i></i><b>精选亲子出行路线</b></header>
+            <div class="product">
+                <div class="demo">
+                    <div class="pic"><img src="/oumen/img/pro1.jpg" alt=""/></div>
+                    <div class="txt">
+                        <h2>香港+澳门4日5晚经典观光游</h2>
+                        <p class="age"><span>适合年龄：</span><a>8</a><a>9</a><a>10</a><a>11</a><a>12</a></p>
+                        <div class="mon">
+                            <p class="money"><span>￥23345起/人</span><span>市场价：￥50000/人</span></p>
+                            <p class="see"><i class="yo-ico">&#xe600;</i><b>3456</b></p>
+                        </div>
+                    </div>
+                    <div class="ps">
+                        <span>偶们自营</span>
+                        <a>随行赠送礼品：高档亲子装、高档雨衣、高档书包等</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
