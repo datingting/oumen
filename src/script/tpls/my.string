@@ -3,40 +3,27 @@
 			<div class="personal_top">
 				<a href="#viewport" class="exit"></a>
 				<div class="personal_top_img">
-					<img src="/women/weidenglutouxiang.png"/> 
+					<!--<img src="/women/weidenglutouxiang.png"/> 
+				-->
 				</div>
 				<div class="user">
-				手机用户
+					手机用户
+				</div>
+				<div class="personal_top_bottom">
+					<div class="aixinhongbao">
+						爱心红包
 					</div>
-				
-				
+					<div class="wodexiaoxi">
+						我的消息
+					</div>
+				</div>
 			</div>
 			<div class="personal_function">
 				<ul >
 					<li >
 						<a href="#viewport" >
 							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_1.png" />
-							</div>
-							<span>个人资料</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_2.png" />
-							</div>
-							<span>收货地址</span>
-							<div></div>
-						</a>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_3.png" />
+								<img src="/oumen/img/wode_dindan.png" />
 							</div>
 							<span>我的订单</span>
 							<div></div>
@@ -45,105 +32,28 @@
 					<li>
 						<a href="#viewport">
 							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_4.png" />
+								<img src="/oumen/img/wode_shoucang.png" />
 							</div>
-							<span>我的购物车</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_4.png" />
-							</div>
-							<span>我的评价</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_5.png" />
-							</div>
-							
 							<span>我的收藏</span>
 							<div></div>
 						</a>
 					</li>
-				</ul>
-				<ul>
+				
 					<li>
 						<a href="#viewport">
 							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_6.png" />
+								<img src="/oumen/img/wode_daijinquan.png" />
 							</div>
-							
-							<span>账户余额</span>
+							<span>我的代金券</span>
 							<div></div>
 						</a>
 					</li>
 					<li>
 						<a href="#viewport">
 							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_7.png" />
+								<img src="/oumen/img/chuxinren.png" />
 							</div>
-							
-							<span>充值记录</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_8.png" />
-							</div>
-							
-							<span>我的积分</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_9.png" />
-							</div>
-							<span>我的优惠券</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_10.png" />
-							</div>
-							<span>我的月兑</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_12.png" />
-							</div>
-							<span>我的提问</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_13.png" />
-							</div>
-							<span>消息中心</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_14.png" />
-							</div>
-							<span>账户安全</span>
+							<span>我的家庭成员</span>
 							<div></div>
 						</a>
 					</li>
@@ -152,43 +62,16 @@
 					<li>
 						<a href="#viewport">
 							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_15.png" />
+								<img src="/oumen/img/she_zhi.png" />
 							</div>
-							<span>关系网成员</span>
+							
+							<span>设置</span>
 							<div></div>
 						</a>
 					</li>
 					
 				</ul>
-				<ul>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_16.png" />
-							</div>
-							<span>返利报表</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="#viewport">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_17.png" />
-							</div>
-							<span>收支明细</span>
-							<div></div>
-						</a>
-					</li>
-					<li>
-						<a href="personal.html">
-							<div class="img">
-								<img src="../会员中心_久岁伴商城_files/member_icon_18.png" />
-							</div>
-							<span>提现记录</span>
-							<div></div>
-						</a>
-					</li>
-				</ul>
+				
 			</div>
 		</div>
 		
