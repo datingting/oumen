@@ -1,1 +1,60 @@
-<p>年龄</p>
+
+<header id="age">
+	1岁
+	<span>
+		重选年龄
+	</span>
+</header>
+<section id="biaoti">
+	<ul class="ul">
+		<li>精品亲子游</li>
+		<li>境外亲子游</li>
+		<li>国内亲子游</li>
+		<li>夏令营</li>	
+		<li>游学</li>
+		<li>周边亲子游</li>
+	</ul>
+</section>
+
+<section id="wrapper">
+	<div class="center">
+		 <p><img src="img/xq.png"/></p>
+	     <p>南极七日亲子游</p>
+	     <p>适合年龄:所有年龄</p>
+	     <p>￥28500起/人<span>市场价 3600</span></p>
+	     <p>偶们自营<span>随行赠送礼品:高档背包</span></p>
+	</div class="center">
+	<div class="center">
+		 <p><img src="img/xq.png"/></p>
+	     <p>南极七日亲子游</p>
+	     <p>适合年龄:所有年龄</p>
+	     <p>￥28500起/人<span>市场价 3600</span></p>
+	     <p>偶们自营<span>随行赠送礼品:高档背包</span></p>
+	</div>  
+	<div class="center">
+		 <p><img src="img/xq.png"/></p>
+	     <p>南极七日亲子游</p>
+	     <p>适合年龄:所有年龄</p>
+	     <p>￥28500起/人<span>市场价 3600</span></p>
+	     <p>偶们自营<span>随行赠送礼品:高档背包</span></p>
+	</div>  
+	<div class="center">
+		 <p><img src="img/xq.png"/></p>
+	     <p>南极七日亲子游</p>
+	     <p>适合年龄:所有年龄</p>
+	     <p>￥28500起/人<span>市场价 3600</span></p>
+	     <p>偶们自营<span>随行赠送礼品:高档背包</span></p>
+	</div>  
+	<div class="center">
+		 <p><img src="img/xq.png"/></p>
+	     <p>南极七日亲子游</p>
+	     <p>适合年龄:所有年龄</p>
+	     <p>￥28500起/人<span>市场价 3600</span></p>
+	     <p>偶们自营<span>随行赠送礼品:高档背包</span></p>
+	</div>  
+</section>
+
+
+
+
+
