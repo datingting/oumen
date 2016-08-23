@@ -5,12 +5,41 @@ var indexHome = require("../tpls/home.string");
 
 SPA.defineView("home",{
     html:indexHome,
+    plugins: [
+        'delegated', {
+            name: 'avalon',
+            options: function (vm) {
+                vm.homeList = [];
+              /*  vm.isShowLoading = true;*/
+            }
+        }
+    ],
     bindEvents: {
-        'show': function () {
+        "show": function () {
+
+            // 获得vm
+            var vm = this.getVM();
+
+            // ajax拉取数据
+            $.ajax({
+                url: "/oumen/mock/home.json",
+                type: "get",
+                /*data: {
+                    type: "more",
+                    pageNo: 1
+                },*/
+                success: function (res) {
+                    setTimeout(function () {
+                        vm.homeList = res.data;
+                       /* console.log(res.data);*/
+                        /*vm.isShowLoading = false;*/
+                    }, 1000);
+                }
+            });
             var mySwiper = new Swiper("#home-swiper", {
                 autoplay:5000,//可选选项，自动滑动
                 loop: true,
-                pagination : '.swiper-pagination',
+                pagination : ".swiper-pagination",
             })
         }
     }

@@ -36,14 +36,14 @@
         <section class="hotList">
             <header><i></i><b>精选亲子出行路线</b></header>
             <div class="product">
-                <div class="demo">
-                    <div class="pic"><img src="/oumen/img/pro1.jpg" alt=""/></div>
+                <div class="demo" ms-repeat-el="homeList">
+                    <div class="pic"><img ms-src="el.imgsrc" alt=""/></div>
                     <div class="txt">
-                        <h2>香港+澳门4日5晚经典观光游</h2>
-                        <p class="age"><span>适合年龄：</span><a>8</a><a>9</a><a>10</a><a>11</a><a>12</a></p>
+                        <h2  ms-text="el.title"></h2>
+                        <p class="age"><span>适合年龄：</span><b ms-repeat-n="el.age"><a ms-text="n"></a></b></p>
                         <div class="mon">
-                            <p class="money"><span>￥23345起/人</span><span>市场价：￥50000/人</span></p>
-                            <p class="see"><i class="yo-ico">&#xe600;</i><b>3456</b></p>
+                            <p class="money"><span  ms-text="el.price"></span><span ms-text="el.cprice"></span></p>
+                            <p class="see"><i class="yo-ico">&#xe600;</i><b  ms-text="el.see"></b></p>
                         </div>
                     </div>
                     <div class="ps">
