@@ -1,1 +1,78 @@
-<div>我的</div>
+		<div class="person_page">
+			
+			<div class="personal_top">
+				<a href="#viewport" class="exit"></a>
+				<div class="personal_top_img">
+					<!--<img src="/women/weidenglutouxiang.png"/> 
+				-->
+				</div>
+				<div class="user">
+					手机用户
+				</div>
+				<div class="personal_top_bottom">
+					<div class="aixinhongbao">
+						爱心红包
+					</div>
+					<div class="wodexiaoxi">
+						我的消息
+					</div>
+				</div>
+			</div>
+			<div class="personal_function">
+				<ul >
+					<li >
+						<a href="#viewport" >
+							<div class="img">
+								<img src="/oumen/img/wode_dindan.png" />
+							</div>
+							<span>我的订单</span>
+							<div></div>
+						</a>
+					</li>
+					<li>
+						<a href="#viewport">
+							<div class="img">
+								<img src="/oumen/img/wode_shoucang.png" />
+							</div>
+							<span>我的收藏</span>
+							<div></div>
+						</a>
+					</li>
+				
+					<li>
+						<a href="#viewport">
+							<div class="img">
+								<img src="/oumen/img/wode_daijinquan.png" />
+							</div>
+							<span>我的代金券</span>
+							<div></div>
+						</a>
+					</li>
+					<li>
+						<a href="#viewport">
+							<div class="img">
+								<img src="/oumen/img/chuxinren.png" />
+							</div>
+							<span>我的家庭成员</span>
+							<div></div>
+						</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#viewport">
+							<div class="img">
+								<img src="/oumen/img/she_zhi.png" />
+							</div>
+							
+							<span>设置</span>
+							<div></div>
+						</a>
+					</li>
+					
+				</ul>
+				
+			</div>
+		</div>
+		
+	
