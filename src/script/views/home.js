@@ -33,9 +33,9 @@ SPA.defineView("home",{
                 url: "/oumen/mock/home.json",
                 type: "get",
                 success: function (res) {
-                    setTimeout(function () {
+                 /*   setTimeout(function () {*/
                         vm.homeList = res.data;
-                    }, 1000);
+                   /* }, 1000);*/
                 }
             });
             var mySwiper = new Swiper("#home-swiper", {
