@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "../core/reset";
 @import "../layout/m-layout";
+@import "../../lib/fragment/yo-header";
 @import "../core/swiper-3.3.1.min.css";
 
 @import "../core/common";
@@ -8,3 +9,4 @@
 @import "../module/m-home";
 @import "../module/m-age";
 @import "../module/m-my";
+@import "../module/m-detail";

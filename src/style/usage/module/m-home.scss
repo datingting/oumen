@@ -75,7 +75,8 @@
   background:#fff;
   padding-left:.15rem;
   padding-right:.15rem;
-  padding-bottom:.15rem;
+  padding-bottom:0rem;
+  min-height:100px;
   header{
     height:.47rem;
     line-height: .47rem;
@@ -98,6 +99,7 @@
   .demo{
     height:100%;
     width:100%;
+    margin-bottom:20px;
     @include border(1px,#ccc);
     border-radius: .1rem;
     box-sizing: content-box;

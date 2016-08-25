@@ -10,4 +10,4 @@ require("./views/index.js");
 require("./views/my.js");
 require("./views/age.js");
 require("./views/home.js");
-
+require("./views/detail.js");
