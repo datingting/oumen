@@ -1,8 +1,110 @@
-<!DOCTYPE HTML>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> new document </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <script type="text/javascript">
+        var foo = 1;
+        function bar(){
+            foo = 10;
+            return;
+            function foo(){
+                alert(foo+"1")
+            }
+        }
+        bar();
+        alert(foo)
+       /* window.onload = function(){
+            heightLight();
+            function heightLight(){
+                var tbody = document.getElementById("table").lastChild;
+                var _trs = tbody.getElementsByTagName("tr");
+                for(var i = 0; i < _trs.length; i ++){
+                    _trs[i].onmouseover = function(){
+                        this.style.backgroundColor = "#ff0000";
+                    }
+                    _trs[i].onmouseout = function(){
+                        this.style.backgroundColor = "#fff";
+                    }
+                }
+            }
+
+        }*/
+/*        window.onload = function(){
+            Highlight();
+        };
+        function addOne(obj){
+            var tbody = document.getElementById('table').lastChild;
+            var tr = document.createElement('tr');
+
+            var td = document.createElement("td");
+            td.innerHTML = "<input type='text'/>";
+            tr.appendChild(td);
+
+            td = document.createElement("td");
+            td.innerHTML = "<input type='text'/>";
+            tr.appendChild(td);
+
+            td = document.createElement("td");
+            td.innerHTML = "<a href='javascript:;' onclick='deleteRow(this)'>É¾³ı</a>";
+            tr.appendChild(td);
+
+            tbody.appendChild(tr);
+            Highlight();
+        }
+
+        function deleteRow(obj){
+            var tbody = document.getElementById('table').lastChild;
+            var tr = obj.parentNode.parentNode;
+            tbody.removeChild(tr);
+        }
+        function Highlight(){
+            var tbody = document.getElementById('table').lastChild;
+            trs = tbody.getElementsByTagName('tr');
+            for(var i =1;i<trs.length;i++){
+                trs[i].onmouseover = function(){
+                    this.style.backgroundColor ="#f2f2f2";
+                };
+                trs[i].onmouseout = function(){
+                    this.style.backgroundColor ="#fff";
+                }
+            }
+        }*/
+
+    </script>
+</head>
+<body>
+<table border="1" width="50%" id="table">
+    <tr>
+        <th>Ñ§ºÅ</th>
+        <th>ĞÕÃû</th>
+        <th>²Ù×÷</th>
+    </tr>
+
+    <tr>
+        <td>xh001</td>
+        <td>ÍõĞ¡Ã÷</td>
+        <td><a href="javascript:;" onclick="deleteRow(this)">É¾³ı</a></td>
+    </tr>
+
+    <tr>
+        <td>xh002</td>
+        <td>ÁõĞ¡·¼</td>
+        <td><a href="javascript:;" onclick="deleteRow(this)">É¾³ı</a></td>
+    </tr>
+
+</table>
+<input type="button" value="Ìí¼ÓÒ»ĞĞ" onclick="addOne()" />
+</body>
+</html>
+
+<!--<!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>è®¡æ—¶å™¨</title>
+    <title>¼ÆÊ±Æ÷</title>
 </head>
 <script type="text/javascript">
     var num=0;
@@ -19,12 +121,12 @@
     <input type="text" id="count" />
 </form>
 </body>
-</html>
+</html>-->
 <!--<!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>è®¡æ—¶å™¨</title>
+    <title>¼ÆÊ±Æ÷</title>
     <script type="text/javascript">
         function clock(){
             var timer=new Date();
@@ -72,51 +174,51 @@
 
 /*
  for(var i=1;i<=10;i++){
-     setTimeout((function(i){  //æ”¹æˆç«‹å³æ‰§è¡Œå‡½æ•°
+     setTimeout((function(i){  //¸Ä³ÉÁ¢¼´Ö´ĞĞº¯Êı
          console.log(i);
      })(i),1000);
  }*/
 /*
  var date = new Date();
- var str = date.getFullYear()+"å¹´";
- str += date.getMonth()+"æœˆ";
- str += date.getDate()+"æ—¥";
+ var str = date.getFullYear()+"Äê";
+ str += date.getMonth()+"ÔÂ";
+ str += date.getDate()+"ÈÕ";
  var day1 = date.getDay();
  var week = "";
  switch (day1){
      case 0 :
-         week = "æ˜ŸæœŸæ—¥";
+         week = "ĞÇÆÚÈÕ";
          break;
 
      case 1 :
-         week = "æ˜ŸæœŸä¸€";
+         week = "ĞÇÆÚÒ»";
          break;
 
      case 2 :
-         week = "æ˜ŸæœŸäºŒ";
+         week = "ĞÇÆÚ¶ş";
          break;
 
      case 3 :
-         week = "æ˜ŸæœŸä¸‰";
+         week = "ĞÇÆÚÈı";
          break;
 
      case 4 :
-         week = "æ˜ŸæœŸå››";
+         week = "ĞÇÆÚËÄ";
          break;
 
      case 5 :
-         week = "æ˜ŸæœŸäº”";
+         week = "ĞÇÆÚÎå";
          break;
 
      case 6 :
-         week = "æ˜ŸæœŸå…­";
+         week = "ĞÇÆÚÁù";
          break;
  }
  document.write(str + week+"<br />");
 
 
-/!* //æˆç»©æ˜¯ä¸€é•¿çªœçš„å­—ç¬¦ä¸²ä¸å¥½å¤„ç†ï¼Œæ‰¾è§„å¾‹ååˆ†å‰²æ”¾åˆ°æ•°ç»„é‡Œæ›´å¥½æ“ä½œå“¦
- var scoreStr = "å°æ˜:87;å°èŠ±:81;å°çº¢:97;å°å¤©:76;å°å¼ :74;å°å°:94;å°è¥¿:90;å°ä¼:76;å°è¿ª:64;å°æ›¼:76";
+/!* //³É¼¨ÊÇÒ»³¤´ÜµÄ×Ö·û´®²»ºÃ´¦Àí£¬ÕÒ¹æÂÉºó·Ö¸î·Åµ½Êı×éÀï¸üºÃ²Ù×÷Å¶
+ var scoreStr = "Ğ¡Ã÷:87;Ğ¡»¨:81;Ğ¡ºì:97;Ğ¡Ìì:76;Ğ¡ÕÅ:74;Ğ¡Ğ¡:94;Ğ¡Î÷:90;Ğ¡Îé:76;Ğ¡µÏ:64;Ğ¡Âü:76";
  var arr = scoreStr.split(";");
  var sum = 0;
  var av = 0;
@@ -127,24 +229,24 @@
     //av = sum / arr.length;
    //  document.write(av)*!/
 
- //æˆç»©æ˜¯ä¸€é•¿çªœçš„å­—ç¬¦ä¸²ä¸å¥½å¤„ç†ï¼Œæ‰¾è§„å¾‹ååˆ†å‰²æ”¾åˆ°æ•°ç»„é‡Œæ›´å¥½æ“ä½œå“¦
- var sorceStr = "å°æ˜:87; å°èŠ±:81; å°çº¢:97; å°å¤©:76;å°å¼ :74;å°å°:94;å°è¥¿:90;å°ä¼:76;å°è¿ª:64;å°æ›¼:76";
+ //³É¼¨ÊÇÒ»³¤´ÜµÄ×Ö·û´®²»ºÃ´¦Àí£¬ÕÒ¹æÂÉºó·Ö¸î·Åµ½Êı×éÀï¸üºÃ²Ù×÷Å¶
+ var sorceStr = "Ğ¡Ã÷:87; Ğ¡»¨:81; Ğ¡ºì:97; Ğ¡Ìì:76;Ğ¡ÕÅ:74;Ğ¡Ğ¡:94;Ğ¡Î÷:90;Ğ¡Îé:76;Ğ¡µÏ:64;Ğ¡Âü:76";
 
- var arr  = sorceStr.split(';');//æŒ‰ ; ç¬¦å·è¿›è¡Œæ•°ç»„åˆ†å‰²
+ var arr  = sorceStr.split(';');//°´ ; ·ûºÅ½øĞĞÊı×é·Ö¸î
  var sum = 0;
  var av= 0;
  for( var i =0;i<arr.length;i++ ){
-     var index = arr[i].indexOf(':'); //æ ¹æ® ï¼š ç¬¦å·ç¡®å®šæ•°å­—å¼€å§‹çš„ä½ç½®
-     sum += parseInt(  arr[i].substr(index+1,2)  );  // parseInt() å­—ç¬¦ä¸²ç±»å‹è½¬æˆæ•´å‹
+     var index = arr[i].indexOf(':'); //¸ù¾İ £º ·ûºÅÈ·¶¨Êı×Ö¿ªÊ¼µÄÎ»ÖÃ
+     sum += parseInt(  arr[i].substr(index+1,2)  );  // parseInt() ×Ö·û´®ÀàĞÍ×ª³ÉÕûĞÍ
  }
  av = sum/arr.length;
- av = Math.floor(av);  // å–æ•´
+ av = Math.floor(av);  // È¡Õû
 
 
 
- //ä»æ•°ç»„ä¸­å°†æˆç»©æ’®å‡ºæ¥ï¼Œç„¶åæ±‚å’Œå–æ•´ï¼Œå¹¶è¾“å‡ºã€‚
+ //´ÓÊı×éÖĞ½«³É¼¨´é³öÀ´£¬È»ºóÇóºÍÈ¡Õû£¬²¢Êä³ö¡£
 
- document.write("&#45;&#45;ç­çº§æ€»åˆ†ä¸ºï¼š"+av)
+ document.write("&#45;&#45;°à¼¶×Ü·ÖÎª£º"+av)
 */
 
 
@@ -152,7 +254,7 @@
 
 
 
- //ä»æ•°ç»„ä¸­å°†æˆç»©æ’®å‡ºæ¥ï¼Œç„¶åæ±‚å’Œå–æ•´ï¼Œå¹¶è¾“å‡ºã€‚
+ //´ÓÊı×éÖĞ½«³É¼¨´é³öÀ´£¬È»ºóÇóºÍÈ¡Õû£¬²¢Êä³ö¡£
 
 
 

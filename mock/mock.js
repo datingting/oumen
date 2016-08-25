@@ -6,6 +6,10 @@ module.exports = {
         {
             pattern: /\/app\/home\.php\?id=\d+/,
             respondwith: './home.json'
+        },
+        {
+            pattern: /\/app\/detail\.php\?id=\d+/,
+                respondwith: './detail.json'
         }
     ]
 };

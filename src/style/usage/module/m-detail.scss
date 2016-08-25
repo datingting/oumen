@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+/*@import "";*/
+
+/*.m-detail{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  .header{
+    height:.44rem;
+    width:100%;
+  }
+  .selCon{
+  @include flex(1);
+    width: 100%;
+    height:500px;
+    position: relative;
+  }
+}*/
+.m-detail{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    height:.44rem;
+    width:100%;
+    @include yo-header(
+    $color: #00a5ff,
+    $bgcolor: #fff
+    )
+    {
+      @include border(0 0 1px 0 , #ccc);
+      > .regret.yo-ico {
+        color:#666
+      }
+    }
+    h2{
+      font-weight:normal;
+    }
+  }
+  section{
+    @include flex(1);
+    width:100%;
+    position: relative;
+    background:#fff;
+    padding:0 10px 0;
+    div{
+
+      .demo{
+        width:100%;
+        HEIGHT:100%;
+        margin-bottom:15px;
+        @include border(1px,#ccc);
+        border-radius: 4px;
+        overflow: hidden;
+        box-sizing: content-box;
+        img{width:100%};
+        .txt{
+          padding:8px;
+          padding-bottom: 0;
+        }
+        h2{
+          font-weight:normal;
+          font-size:.15rem;
+          line-height: .20rem;
+          height:.40rem;
+          /*margin-bottom:6px;*/
+        }
+        .age{
+          height:15px;
+          line-height: 15px;
+          font-size:12px;
+          a{
+            display: inline-block;
+            height:15px;
+            width:15px;
+            font-size:12px;
+            border-radius: 50%;
+            background: #ebebeb;
+            color:#333;
+            text-align: center;
+            line-height: 15px;
+            margin:0 5px;
+            margin-bottom: 6px;
+          }
+        }
+        .mon{
+          @include flexbox();
+          /*@include justify-content()*/
+        }
+        .money{
+          @include flex();
+          height:28px;
+          line-height: 28px;
+          font-size: 11px;
+          span:nth-child(2){
+            color:#ccc;
+            text-decoration: line-through;
+            margin-left:8px;
+          }
+        }
+        .see{
+          color:#ccc;
+          font-weight: normal;
+          b{
+            font-weight: normal;
+          }
+        }
+        .ps{
+          height:35px;
+          line-height: 35px;
+          padding-left: 9px;
+          background: #f6f6f5;
+          span{
+            padding:3px;
+            background: #ff5a60;
+            border-radius:4px;
+            text-align: center;
+            color:#fff;
+            line-height: 15px;
+            font-size:10px;
+            margin-right:10px;
+          }
+          a{
+            font-size:10px;
+            color:#95358c;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+/*
+.m-detail{
+  height:100%;
+  width:100%;
+/!*@include flebox();
+  @include flex-direction(column);*!/
+  section{
+    width:100%;
+    padding:15px;
+    background:#fff;
+    @include flex(1)
+  }
+}
+
+*/

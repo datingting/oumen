@@ -23,14 +23,14 @@
         </div>
         <div class="list">
             <ul class="top">
-                <li><img src="/oumen/img/one.png" alt=""/><b>境外亲子游</b></li>
-                <li><img src="/oumen/img/two.png" alt=""/><b>国内亲子游</b></li>
-                <li><img src="/oumen/img/three.png" alt=""/><b>周边亲子活动</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="1"><img src="/oumen/img/one.png" alt=""/><b>境外亲子游</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="2"><img src="/oumen/img/two.png" alt=""/><b>国内亲子游</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="3"><img src="/oumen/img/three.png" alt=""/><b>周边亲子活动</b></li>
             </ul>
             <ul class="bot">
-                <li><img src="/oumen/img/four.png" alt=""/><b>冬夏令营</b></li>
-                <li><img src="/oumen/img/five.png" alt=""/><b>游学</b></li>
-                <li><img src="/oumen/img/six.png" alt=""/><b>会员注册</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="4"><img src="/oumen/img/four.png" alt=""/><b>冬夏令营</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="5"><img src="/oumen/img/five.png" alt=""/><b>游学</b></li>
+                <li action-type="goto.detail" ms-attr-data-id="6"><img src="/oumen/img/six.png" alt=""/><b>会员注册</b></li>
             </ul>
         </div>
         <section class="hotList">

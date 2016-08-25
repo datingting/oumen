@@ -2,37 +2,39 @@
  * Created by Administrator on 2016/8/20.
  */
 var indexHome = require("../tpls/home.string");
-
 SPA.defineView("home",{
     html:indexHome,
     plugins: [
-        'delegated', {
-            name: 'avalon',
+        "delegated", {
+            name: "avalon",
             options: function (vm) {
                 vm.homeList = [];
               /*  vm.isShowLoading = true;*/
             }
         }
     ],
+    // 绑定tap
+    bindActions: {
+        "goto.detail": function (el,data) {
+            SPA.open("detail", {
+                param: {
+                    id: data.id
+                }
+            });
+          /*  console.log(data.id);*/
+        }
+    },
     bindEvents: {
         "show": function () {
-
             // 获得vm
             var vm = this.getVM();
-
             // ajax拉取数据
             $.ajax({
                 url: "/oumen/mock/home.json",
                 type: "get",
-                /*data: {
-                    type: "more",
-                    pageNo: 1
-                },*/
                 success: function (res) {
                     setTimeout(function () {
                         vm.homeList = res.data;
-                       /* console.log(res.data);*/
-                        /*vm.isShowLoading = false;*/
                     }, 1000);
                 }
             });
@@ -43,5 +45,5 @@ SPA.defineView("home",{
             })
         }
     }
-})
+});
 

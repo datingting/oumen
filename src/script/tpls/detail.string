@@ -1,0 +1,49 @@
+<!--    <header>
+        <i class="yo-ico" action-type="back">&#xe609;</i>
+        <span ms-text="detail[0].title"></span>
+        <i class="yo-ico">&#xe609;</i>
+    </header>
+    <section ms-repeat-a = "detail">
+        <img ms-src="a.imgsrc" alt="" width="100" height="100">
+        <p ms-text="detail.title"></p>
+    </section>
+</div>-->
+
+<div class="m-detail">
+    <header>
+        <div class="yo-header ">
+            <h2 ms-text="detail.title"></h2>
+            <span class="regret yo-ico" action-type="back">&#xe609;</span>
+        </div>
+    </header>
+    <section spa-widget="scroll"  data-scroll-id="myScroll">
+
+            <div>
+                <div class="demo" ms-repeat-el="detail.idmain">
+                    <div class="pic"><img ms-src="el.imgsrc" alt=""/></div>
+                    <div class="txt">
+                        <h2  ms-text="el.title"></h2>
+                        <p class="age"><span>适合年龄：</span><b ms-repeat-n="el.age"><a ms-text="n"></a></b></p>
+                        <div class="mon">
+                            <p class="money"><span  ms-text="el.price"></span><span ms-text="el.cprice"></span></p>
+                            <p class="see"><i class="yo-ico">&#xe600;</i><b  ms-text="el.see"></b></p>
+                        </div>
+                    </div>
+                    <div class="ps">
+                        <span>偶们自营</span>
+                        <a>随行赠送礼品：高档亲子装、高档雨衣、高档书包等</a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+ <!--   <header>
+
+    </header>
+
+    <div class="selCon">
+
+    </div>-->
+
+
+</div>
